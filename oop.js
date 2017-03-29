@@ -26,3 +26,6 @@ khoa.incrAge();
 khoa.incrAge();
 khoa.setAge(60);
 console.log(khoa);
+
+khoa.age = 70;
+console.log(khoa);
