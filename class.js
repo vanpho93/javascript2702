@@ -32,6 +32,8 @@ class Triangle {
     }
 }
 
+//github.com/vanpho93
+
 const a = new Point(0, 0);
 const b = new Point(1, 0);
 const c = new Point(0, 1);
