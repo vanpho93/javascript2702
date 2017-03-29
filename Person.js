@@ -16,6 +16,8 @@ const tun = new Person('Tun', 160, 18);
 
 const arrPerson = [teo, ti, tun];
 
-for (let i = 0; i < arrPerson.length; i++) {
-    arrPerson[i].show();
-}
+// for (let i = 0; i < arrPerson.length; i++) {
+//     arrPerson[i].show();
+// }
+
+arrPerson.forEach(e => e.show());
