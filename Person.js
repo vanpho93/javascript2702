@@ -20,4 +20,11 @@ const arrPerson = [teo, ti, tun];
 //     arrPerson[i].show();
 // }
 
-arrPerson.forEach(e => e.show());
+//some, every
+
+// arrPerson.forEach(e => e.show());
+
+// const isHighEnough = arrPerson.some(person => person.height > 190);
+const isHighEnough = arrPerson.every(person => person.age > 3);
+
+console.log(isHighEnough);
