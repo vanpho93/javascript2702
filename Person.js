@@ -32,3 +32,8 @@ const a = arrPerson.find(e => e.name === 'Ti');
     //filter
     // const arr15 = arrPerson.filter(e => console.log(e.name));
     // console.log(arr15);
+arrPerson.sort((a, b) => a.height - b.height);
+console.log(arrPerson);
+
+arrPerson.sort((a, b) => b.age - a.age);
+console.log(arrPerson);
